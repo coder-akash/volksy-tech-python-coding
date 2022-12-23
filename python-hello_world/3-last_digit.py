@@ -10,7 +10,7 @@ if n > 0:
     else:
         print("Last digit of {} is {} and is less than 6 and not 0".format(n, ln))
 else:
-    ln= (ln*-1) % 10
+    ln= int(str(n)[-1])
     if ln == 0:
         print("Last digit of {} is {} and is 0".format(n, ln))
     else:
