@@ -7,4 +7,4 @@ for i in range(10, 100):
             if i == 89:
                 print(i)
             else:
-                print('{}'.format(i), end = ", ")
+                print('{}'.format(i), end=", ")
