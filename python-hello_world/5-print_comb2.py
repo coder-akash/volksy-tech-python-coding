@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 for i in range(100):
     if i == 99:
-        print(i)
+        print('{}'.format(i))
     else:
-        print ("%02d"%i, end=', ')
-    
+        print ("%02d" %i, end=', ')    
 
